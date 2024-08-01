@@ -46,6 +46,7 @@ padding: 0px;
                 flex-direction: row;
                 /* border: 2px solid white; */
                 padding: 7px;
+                border-bottom: 1px groove #1B1B1B;
             }
             .Lnav:hover{
                 background-color:  #333131 ;
@@ -152,13 +153,15 @@ font-size: larger;
     display: flex;
     justify-content: space-around;
     padding: 50px;
+
+  
 }
 .txt{
     padding-left: 100px;
    
 }
 .innerbox{
-    border: 2px solid #1B1B1B ; 
+    border: 2px solid #1B1B1B ;
    padding:  20px;
    width: 105px;
    
@@ -166,6 +169,10 @@ font-size: larger;
    border-radius: 10px;
    color: #9c9c9c;
    
+   
+}
+.innerbox:hover{
+    border-bottom: 2px groove  white;
 }
 /* .Lnav .mainhead:hover{ 
    
@@ -188,3 +195,84 @@ font-size: larger;
 
         /* }
     } */
+@media only screen and (max-width:400px) {
+    .maincontainer{ 
+        display: flex;
+        align-items: center;
+    .mainhead{
+        /* border: 2px solid white; */
+        width: 360px;
+        font-size: 8px;
+        /* margin-left: 15%; */
+        
+       
+    }
+}
+    /* .mainfooter{
+        border: 2px solid white;
+        width: 550px;
+       
+    } */
+    .downbutton{
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+.maindiv{
+      
+        flex-direction: column;
+
+    }
+    .Rdiv{
+        margin-left: 35%;
+        img{
+            width: 240px!important;
+        }
+    }
+    .mainhead{
+        padding: 1px !important;
+        display: flex;
+        margin-left: 5px;
+        border-radius: 1px!important;
+        align-items: start;
+        .Lheader{
+            /* border: 2px solid white; */
+            padding: 1px !important;
+            width: 550px !important;
+        }
+        
+    }
+    .Lnav{
+/* border: 2px solid white; */
+padding: 1px !important;
+font-size: 7px;
+    }
+    .Lheader{
+        /* border: 2px solid white; */
+        margin-right: 10px;
+    }
+
+
+    .maindiv{
+        /* border: 2px solid rgb(220, 19, 19); */
+        .aboutme{
+            /* border: 2px solid white; */
+            width: 300px !important;
+margin-top: 10%;
+margin-left: 15%;
+        .name{
+        /* text-align: center!important; */
+        font-size: 30px;
+        }
+        .intro{
+            font-size: 15px;
+            text-s
+        }
+    }
+.start-button{
+    margin-left: 50px;
+    width: 89%;
+}
+    
+}
+}
